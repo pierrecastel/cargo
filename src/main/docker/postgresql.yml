@@ -1,0 +1,11 @@
+version: '2'
+services:
+    cargo-postgresql:
+        image: postgres:10.4
+        # volumes:
+        #     - ~/volumes/jhipster/cargo/postgresql/:/var/lib/postgresql/data/
+        environment:
+            - POSTGRES_USER=cargo
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432

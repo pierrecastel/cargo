@@ -1,0 +1,38 @@
+{
+    "generator-jhipster": {
+        "promptValues": {
+            "packageName": "com.airfranceklm.cargo",
+            "nativeLanguage": "en"
+        },
+        "jhipsterVersion": "5.8.1",
+        "applicationType": "monolith",
+        "baseName": "cargo",
+        "packageName": "com.airfranceklm.cargo",
+        "packageFolder": "com/airfranceklm/cargo",
+        "serverPort": "8080",
+        "authenticationType": "jwt",
+        "cacheProvider": "ehcache",
+        "enableHibernateCache": true,
+        "websocket": false,
+        "databaseType": "sql",
+        "devDatabaseType": "h2Disk",
+        "prodDatabaseType": "postgresql",
+        "searchEngine": false,
+        "messageBroker": false,
+        "serviceDiscoveryType": false,
+        "buildTool": "maven",
+        "enableSwaggerCodegen": false,
+        "jwtSecretKey": "ZGIzNjE1ZTgxNDI1ZmJjOWQ2NTk0ZDY0ZDAzNDJmNDliODZmNWEyMDk3MGIxMGFlMzU5MTEzMDRkYzg0NzVlZGI0YjU5MGY0NjZiYzM4OWU0MzA3NzM2NWEzZmFjYTFjZGFjMDAzYTIzYWJlNjMyZjA0NDU5MDhmYzJkMWU2MTY=",
+        "clientFramework": "angularX",
+        "useSass": false,
+        "clientPackageManager": "npm",
+        "testFrameworks": ["gatling", "cucumber"],
+        "jhiPrefix": "jhi",
+        "entitySuffix": "",
+        "dtoSuffix": "DTO",
+        "otherModules": [],
+        "enableTranslation": true,
+        "nativeLanguage": "en",
+        "languages": ["en", "nl", "fr"]
+    }
+}
